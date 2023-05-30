@@ -1,3 +1,9 @@
+:root {
+    --navy-blue: #2e2f42;
+    --color-footer: #F4F4FD;
+    --slate: #434455;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -5,12 +11,12 @@ body {
     background-color: #FFFFFF;
 }
 
-.header-navigation {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .logo {
@@ -23,17 +29,8 @@ body {
     color: #4d5ae5;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .Studio {
     color: #2e2f42;
-}
-
-.header-menu {
-    font-size: 16px;
-    list-style: none;
 }
 
 .header-menu-item {
@@ -41,20 +38,66 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--navy-blue);
+}
+
+.header-menu-item:hover {
+    color: #404bbf;
+}
+
+.header-menu-item:active {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-data {
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    line-height: 1.5;
+}
+
+.contacts.data:hover {
+    color: #404bbf
+}
+
+.contacts-data:active {
+    color: #404bbf
 }
 
 .section1 {
-    background-color: #2e2f42;
+    background-color: var(--navy-blue);
 }
 
-.header1 {
+.slogan {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center
+}
+
+.button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #404BBF;
+}
+
+.button1:active {
+    background-color: #404BBF;
 }
 
 h2 {
@@ -81,24 +124,6 @@ p {
     color: #434455;
 }
 
-.button1 {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        cursor: pointer;
+.footer1 {
+background-color: var(--navy-blue);
 }
-
-.button1:hover {
-    background-color: #404BBF;
-}
-
-.button1:active {
-    background-color: #404BBF;
-}
-
-:root {}
