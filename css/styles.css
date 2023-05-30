@@ -1,5 +1,5 @@
 :root {
-    --navy-blue: #2e2f42;
+    --navy-blue: #2E2F42;
     --cloud: #F4F4FD;
     --slate: #434455;
     --ocean: #404BBF;
@@ -50,7 +50,7 @@ body {
     color: var(--ocean);
 }
 
-.header-menu-item:active {
+.header-menu-item:focus {
     color: var(--ocean);
 }
 
@@ -68,7 +68,7 @@ body {
     color: #404bbf
 }
 
-.contacts-data:active {
+.contacts-data:focus {
     color: #404bbf
 }
 
@@ -100,7 +100,7 @@ body {
     background-color: #404BBF;
 }
 
-.button:active {
+.button:focus {
     background-color: #404BBF;
 }
 
@@ -112,7 +112,7 @@ h2 {
     color: #2E2F42;
 }
 
-h3 {
+.advantagesh {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -120,7 +120,7 @@ h3 {
     color: #2E2F42;
 }
 
-p {
+.advantagesp {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
