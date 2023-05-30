@@ -15,7 +15,7 @@ body {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style: none;
 }
 
@@ -71,7 +71,7 @@ ul {
     color: #404bbf
 }
 
-.section1 {
+.section-introduction {
     background-color: var(--navy-blue);
 }
 
@@ -96,11 +96,11 @@ ul {
     cursor: pointer;
 }
 
-.button1:hover {
+.button:hover {
     background-color: #404BBF;
 }
 
-.button1:active {
+.button:active {
     background-color: #404BBF;
 }
 
