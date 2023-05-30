@@ -1,6 +1,6 @@
 :root {
     --navy-blue: #2e2f42;
-    --color-footer: #F4F4FD;
+    --cloud: #F4F4FD;
     --slate: #434455;
 }
 
@@ -29,8 +29,12 @@ ul {
     color: #4d5ae5;
 }
 
-.Studio {
+.studio {
     color: #2e2f42;
+}
+
+.studiof {
+    color: #f4f4fd
 }
 
 .header-menu-item {
@@ -121,9 +125,12 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
-.footer1 {
+.footer {
 background-color: var(--navy-blue);
+}
+
+.footerp {
+    color: var(--cloud);
 }
