@@ -2,6 +2,7 @@
     --navy-blue: #2e2f42;
     --cloud: #F4F4FD;
     --slate: #434455;
+    --ocean: #404BBF;
 }
 
 body {
@@ -30,11 +31,11 @@ body {
 }
 
 .studio {
-    color: #2e2f42;
+    color: var(--navy-blue);
 }
 
 .studiof {
-    color: #f4f4fd
+    color: var(--cloud);
 }
 
 .header-menu-item {
@@ -46,11 +47,11 @@ body {
 }
 
 .header-menu-item:hover {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header-menu-item:active {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .contacts {
@@ -71,7 +72,7 @@ body {
     color: #404bbf
 }
 
-.section-introduction {
+.introduction {
     background-color: var(--navy-blue);
 }
 
@@ -90,7 +91,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
