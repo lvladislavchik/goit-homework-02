@@ -3,6 +3,7 @@
     --cloud: #F4F4FD;
     --slate: #434455;
     --ocean: #404BBF;
+    --iris: #4D5AE5;
 }
 
 body {
@@ -99,6 +100,11 @@ body {
     cursor: pointer;
 }
 
+.button-portfolio {
+    color: var(--iris);
+    background-color: var(--cloud);
+}
+
 .button:hover {
     background-color: #404BBF;
 }
@@ -115,6 +121,12 @@ body {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .ul-background {
