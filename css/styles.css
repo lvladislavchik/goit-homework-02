@@ -85,7 +85,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    text-align: center
+    text-align: center;
 }
 
 .button {
@@ -117,7 +117,7 @@ body {
     text-transform: capitalize;
 }
 
-.ul-features {
+.ul-background {
     background-color: #FFFFFF;
 }
 
@@ -136,12 +136,16 @@ body {
     letter-spacing: 0.02em;
 }
 
+.paragraph-color {
+    color: var(--slate);
+}
+
 .developers {
     background-color: #F4F4FD;
 }
 
 .footer {
-background-color: var(--navy-blue);
+    background-color: var(--navy-blue);
 }
 
 .footerp {
