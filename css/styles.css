@@ -109,8 +109,16 @@ body {
     background-color: #404BBF;
 }
 
+.button-portfolio:hover {
+    color: #FFFFFF;
+}
+
 .button:focus {
     background-color: #404BBF;
+}
+
+.button-portfolio:focus {
+    color: #FFFFFF;
 }
 
 .h-two {
