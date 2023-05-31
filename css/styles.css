@@ -1,5 +1,5 @@
 :root {
-    --navy-blue: #2E2F42;
+    --navy-blue: #2e2f42;
     --cloud: #F4F4FD;
     --slate: #434455;
     --ocean: #404BBF;
@@ -43,15 +43,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-menu-link {
     color: var(--navy-blue);
 }
 
-.header-menu-item:hover {
-    color: var(--ocean);
+.header-menu-link:hover {
+    color: #404bbf;
 }
 
-.header-menu-item:focus {
-    color: var(--ocean);
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 .contacts {
@@ -64,12 +67,12 @@ body {
     line-height: 1.5;
 }
 
-.contacts.data:hover {
-    color: #404bbf
+.contacts-data:hover {
+    color: #404bbf;
 }
 
 .contacts-data:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .introduction {
@@ -139,4 +142,6 @@ background-color: var(--navy-blue);
 
 .footerp {
     color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
